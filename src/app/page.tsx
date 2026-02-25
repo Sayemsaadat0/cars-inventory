@@ -23,7 +23,7 @@ const Dashboard = () => {
   const [error, setError] = useState<string | null>(null);
   const [searchQuery, setSearchQuery] = useState("");
   const [sort, setSort] = useState<SortOptionType>("default");
-  const [isMobileSortOpen, setIsMobileSortOpen] = useState(false);
+  // const [isMobileSortOpen, setIsMobileSortOpen] = useState(false);
 
   const debouncedSearchQuery = useDebounce(searchQuery, 500);
 
